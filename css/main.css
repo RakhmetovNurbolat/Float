@@ -9,13 +9,18 @@
 body{
     font-family: "Inter";
     font-size: 16px;
-    background-color: #171836;
+    background-color: #FFF;
 }
-
+.header{
+    margin-top: 20px;
+}
 .wrapper {
     margin: 0 auto;
     width: calc(100% - 20px);
     max-width: 1200px;
+}
+.clearfix{
+    clear: both;
 }
 /*headaar*/
 .menu a{
@@ -23,6 +28,8 @@ body{
 }
 .menu li{
     list-style: none;
+    font-size: 14px;
+    font-weight: 500;
 }
 .menu li,
 .menu__logo{
