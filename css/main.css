@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Itim&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter";
+    font-size: 16px;
+    background-color: #171836;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: calc(100% - 20px);
+    max-width: 1200px;
+}
+/*headaar*/
+.menu a{
+    text-decoration: none;
+}
+.menu li{
+    list-style: none;
+}
+.menu li,
+.menu__logo{
+    float: left;
+}
+.menu__language,
+.menu__buttom{
+    float: right;
+}
+.menu{
+    overflow: hidden;
+}
+.menu__right{
+    
+}
